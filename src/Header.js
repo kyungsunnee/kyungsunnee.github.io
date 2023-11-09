@@ -18,16 +18,31 @@ function Header() {
         </div>
         <div id="header-right">
           <div className="info-div">
-            <img alt="phone icon" src={phone} className="info-icon" />
+            <a href="tel:01049631210">
+              <img alt="phone icon" src={phone} className="info-icon" />
+            </a>
             <span className="info-txt">01049631210</span>
           </div>
           <div className="info-div info-mg">
-            <img alt="phone icon" src={mail} className="info-icon" />
+            <a href="mailto:kyungsunnee@naver.com">
+              {" "}
+              <img alt="phone icon" src={mail} className="info-icon" />
+            </a>
             <span className="info-txt">kyungsunnee@naver.com</span>
           </div>
           <div className="info-div info-mg">
-            <img alt="phone icon" src={git} className="info-icon" />
-            <a className="info-txt" href="https://github.com/kyungsunnee?tab=repositories">Github</a>
+            <a
+              className="info-txt"
+              href="https://github.com/kyungsunnee?tab=repositories"
+            >
+              <img alt="phone icon" src={git} className="info-icon" />
+            </a>
+            <a
+              className="info-txt"
+              href="https://github.com/kyungsunnee?tab=repositories"
+            >
+              Github
+            </a>
           </div>
           <div className="info-div info-mg">
             <img alt="phone icon" src={drive} className="info-icon" />
