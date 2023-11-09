@@ -25,16 +25,12 @@ function Header() {
           </div>
           <div className="info-div info-mg">
             <a href="mailto:kyungsunnee@naver.com">
-              {" "}
               <img alt="phone icon" src={mail} className="info-icon" />
             </a>
             <span className="info-txt">kyungsunnee@naver.com</span>
           </div>
           <div className="info-div info-mg">
-            <a
-              className="info-txt"
-              href="https://github.com/kyungsunnee?tab=repositories"
-            >
+            <a href="https://github.com/kyungsunnee?tab=repositories">
               <img alt="phone icon" src={git} className="info-icon" />
             </a>
             <a
