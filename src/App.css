@@ -164,7 +164,7 @@ left: 0;
 .script-title-txt {
   color: #000;
 
-font-family: Judson;
+font-family: 'Judson Bold';
 font-size: 30.629px;
 position: absolute;
 left: 15px;
@@ -177,6 +177,9 @@ left: 15px;
   clear:both !important;
   position: relative;
 top: 50px;
+font-family: 'Nanum Gothic';
+line-height: 23px; /* 150% */
+letter-spacing: 0.721px;
 }
 
 /* mobile */
