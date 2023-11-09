@@ -348,6 +348,9 @@ top: 50px;
     display: flex;
     justify-content: center; /* 수평 가운데 정렬 */
   }
+  .script-title-txt {
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 600px) {
