@@ -353,6 +353,9 @@ letter-spacing: 0.721px;
     clear:both !important;
     position: relative;
   top: 50px;
+  font-size: 13px;
+  line-height: 17px; /* 150% */
+letter-spacing: 0.5px;
   }
   .main-right {
     display: flex;
