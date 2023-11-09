@@ -1,38 +1,365 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Judson';
+  src: url('./font/Judson-Regular.ttf') format('truetype'); /* 실제 폰트 파일의 경로를 업데이트하세요 */
+  font-weight: normal;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'Judson Bold';
+  src: url('./font/Judson-Bold.ttf') format('truetype'); /* 실제 폰트 파일의 경로를 업데이트하세요 */
+  font-weight: normal;
+  font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a:visited {
+  color: #0b456e;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Header {
+  position: fixed; /* 고정 위치 */
+  top: 0; /* 화면 상단에 고정 */
+  left: 0; /* 화면 좌측에 고정 */
+  right: 0; /* 화면 우측에 고정 */
+  z-index: 100; /* 다른 요소 위에 표시 */
+  background-color: white;
+  /* border: 0.2px solid black; */
+  width: 100vw;
+  height: 200px;
+  min-width: 858px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header_content {
+  padding: 0 28.5px 0 28.5px;
+  max-width: 858px;
+  width: 858px; /* 가로 크기 858px로 설정 */
+  height: 155px; /* 세로 크기 155px로 설정 */
+  position: absolute; /* 절대 위치 지정 */
+  top: 50%; /* 상단에서 50% 위치로 이동 */
+  left: 50%; /* 좌측에서 50% 위치로 이동 */
+  transform: translate(-50%, -50%); /* 중앙 정렬 */
+  display: flex;
+}
+
+#header-left {
+  width: 67%;
+}
+
+#header-right {
+  border-left: 1.802px solid rgba(108, 108, 108, 0.70);
+  width: 33%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#name {
+  font-family: 'Judson Bold';
+  font-size: 82px;
+  color: #5D7383;
+  margin-bottom: 14px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#job {
+  color: #6C6C6C;
+  font-family: Nanum Gothic;
+  font-size: 27.025px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.054px;
+  margin-left: 1px;
+}
+
+.info-icon {
+  width: 25px;
+  margin-right: 12px;
+}
+
+.info-div {
+  font-family: Nanum Gothic;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 37px;
+  display: flex;
+  align-items: center;
+}
+
+.info-mg {
+  margin: 14px 0 0 37px;
+}
+
+.App {
+  height: 1000px;
+  /* background-color: aqua; */
+}
+
+.main-container {
+  margin: auto;
+  margin-top: 214px;
+  width: 908px;
+
+  background-color: white;
+  display: flex;
+}
+
+.main-left {
+  width: 312px;
+  /* border: 1px solid black; */
+  margin-right: 56px;
+}
+
+.main-right {
+  width: 540px;
+  /* border: 1px solid black; */
+}
+
+#profile-photo {
+  float: top;
+  width: 175px;
+  border: 4px solid white;
+  box-shadow: 1.86552px 1.86552px 3.73105px 0px rgba(0, 0, 0, 0.20);
+}
+
+#profile-txt {
+  width: 100%;
+  height: 995px;
+  background: rgba(246, 246, 246, 0.70);
+  position: relative;
+  z-index: 1;
+  margin-top: 130px;
+}
+
+#profile-photo-area {
+  width: 312px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+}
+
+.script-title {
+  position: absolute;
+}
+
+.script-title-sq {
+  width: 25.224px;
+height: 25.224px;
+background: rgba(90, 119, 140, 0.20);
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.script-title-txt {
+  color: #000;
+
+font-family: Judson;
+font-size: 30.629px;
+position: absolute;
+left: 15px;
+}
+
+.script-txt {
+  display: block;
+  white-space:normal;
+  width: 540px;
+  clear:both !important;
+  position: relative;
+top: 50px;
+}
+
+/* mobile */
+
+@media (max-width: 280px) {
+  .App {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 600px) {
+
+  .Header {
+    border-top: 60px solid white;
+    position: fixed; /* 고정 위치 */
+    top: 0; /* 화면 상단에 고정 */
+    left: 0; /* 화면 좌측에 고정 */
+    right: 0; /* 화면 우측에 고정 */
+    z-index: 100; /* 다른 요소 위에 표시 */
+    background-color: white;
+    width: 100vw;
+    height: 160px;
+    min-width: 858px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-left {
+    clear: both;
+    width: 218.7px;
+    height: 30.12px;
+    display: flex;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+  }
+
+  #name {
+    width: 100vw;
+    display: flex;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    color: #5D7383;
+    font-family: 'Judson Bold' sans-serif;
+    font-size: 42px;
+    font-style: normal;
+  }
+
+  #job {
+    width: 100vw;
+    display: flex;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    color: #6C6C6C;
+
+    font-family: Nanum Gothic;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.473px;
+  }
+  
+
+  .info-icon {
+    width: 20px;
+  }
+
+  .info-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .info-txt {
+    display: none;
+  }
+
+  .info-icon {
+    margin: 0;
+    width: 30px;
+  }
+
+  .info-mg {
+    margin: 0;
+    margin-left: 30px;
+  }
+
+  #header-right {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    margin-top: 30px;
+    border: none;
+  }
+  
+  .main-container {
+    margin: auto;
+    margin-top: 214px;
+    width: 100vw;
+    height: 500px;
+    background-color: white;
+    display: block;
+  }
+  
+  .main-left {
+    width: 100vw;
+    height: 180px;
+    /* border: 1px solid black; */
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+  
+  .main-right {
+    width: 100vw;
+    height: 100%;
+    /* border: 1px solid black; */
+  }
+
+  #profile-photo {
+    float: top;
+    margin-top: 9.75px;
+    width: 120px;
+    height: 158.438px;
+    border: 4px solid white;
+    box-shadow: 1.86552px 1.86552px 3.73105px 0px rgba(0, 0, 0, 0.20);
+  }
+  
+  #profile-txt {
+    margin: 0;
+    margin-left: 69px;
+    width: 250px;
+    height: 180px;
+    background: rgba(246, 246, 246, 0.70);
+  }
+
+  #profile-txt-area {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+  }
+  
+  #profile-photo-area {
+    height: 180px;
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    z-index: 2;
+    display: grid;
+  }
+
+  .script-title {
+    width: 90vw;
+    margin: auto;
+  }
+
+  .script-txt {
+    display: block;
+    white-space:normal;
+    width: 90vw;
+    clear:both !important;
+    position: relative;
+  top: 50px;
+  }
+  .main-right {
+    display: flex;
+    justify-content: center; /* 수평 가운데 정렬 */
+  }
+}
+
+@media (max-width: 600px) {
+  .Header_content {
+    flex-direction: column;
+  }
+
+  #header-left {
+    width: 100vw;
+  }
+
+  #header-right {
+    width: 100vw;
   }
 }
