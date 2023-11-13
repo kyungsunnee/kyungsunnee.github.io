@@ -13,6 +13,8 @@ import photoshopico from "./img/skill/photoshop.png";
 import figmaico from "./img/skill/figma (1).png";
 import mostico from "./img/skill/bing.png";
 import linkedico from "./img/link.png";
+import favico from "./img/favourite2.png";
+import leftquotesico from "./img/left-quotes-sign.png";
 
 function App() {
   const icoList = [
@@ -115,11 +117,14 @@ function App() {
               <br />
               <br />
               <br />
-              서비스를 통한 사용자와의 원활한 의사소통은 물론, 팀 내에서의
-              긍정적인 커뮤니케이션을 통해 협업의 효율성을 극대화하고자 하는
-              목표를 가지고 있습니다. 사용자 경험을 개선은 물론 팀 내 협업을
-              강화하여 효율적이고 창의적인 결과물을 만들어내고 싶습니다.
+              <div id="goal-script">
+                " 서비스를 통한 사용자와의 원활한 의사소통은 물론, 팀 내에서의
+                긍정적인 커뮤니케이션을 통해 협업의 효율성을 극대화하고자 하는
+                목표를 가지고 있습니다. 사용자 경험 개선 및 팀 내 협업을
+                강화하여 효율적이고 창의적인 결과물을 만들어내고 싶습니다. "
+              </div>
             </div>
+
             <div className="empty_space"></div>
             <div className="script-title">
               <div className="script-title-sq"></div>
