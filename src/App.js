@@ -5,7 +5,7 @@ import Header from "./Header";
 import profile from "./img/profile.jpeg";
 
 import reactico from "./img/skill/atom.png";
-import jsico from "./img/skill/js.png";
+import jsico from "./img/skill/java-script-logo.png";
 import cssico from "./img/skill/files (1).png";
 import htmlico from "./img/skill/files.png";
 import illustico from "./img/skill/illustrator.png";
@@ -51,7 +51,7 @@ function App() {
                   ✏️ Education
                 </div>
                 <div className="education-title strong">
-                  <span className="mobile-veiw pencil" >✏️ </span>
+                  <span className="mobile-veiw pencil">✏️ </span>
                   Communivity College
                 </div>
                 <div className="date">09.03 - 15.02</div>
