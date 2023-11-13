@@ -51,7 +51,7 @@ function App() {
                   ✏️ Education
                 </div>
                 <div className="education-title strong">
-                  <span className="mobile-veiw">✏️ </span>
+                  <span className="mobile-veiw pencil" >✏️ </span>
                   Communivity College
                 </div>
                 <div className="date">09.03 - 15.02</div>
@@ -61,7 +61,7 @@ function App() {
                   산업 정보 디자인학과
                 </div>
                 <div className="education-title strong">
-                  <span className="mobile-veiw">✏️ </span>Boot camp
+                  <span className="mobile-veiw pencil">✏️ </span>Boot camp
                 </div>
                 <div className="date">21.06 - 21.12</div>
                 <div className="education-script">

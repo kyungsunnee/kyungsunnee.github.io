@@ -574,6 +574,10 @@ letter-spacing: 0.5px;
   
 }
 
+.pencil {
+  font-size: 10px;
+}
+
 @media (max-width: 600px) {
   .Header_content {
     flex-direction: column;
