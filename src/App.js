@@ -12,6 +12,7 @@ import illustico from "./img/skill/illustrator.png";
 import photoshopico from "./img/skill/photoshop.png";
 import figmaico from "./img/skill/figma (1).png";
 import mostico from "./img/skill/bing.png";
+import linkedico from "./img/link.png";
 
 function App() {
   const icoList = [
@@ -52,14 +53,14 @@ function App() {
                 <div className="education-title strong">
                   Communivity College
                 </div>
-                <div className="education-date">09.03 - 15.02</div>
+                <div className="date">09.03 - 15.02</div>
                 <div className="education-script">
                   명지전문대,
                   <br />
                   산업 정보 디자인학과
                 </div>
-                <div className="education-title strong">Code States</div>
-                <div className="education-date">21.06 - 21.12</div>
+                <div className="education-title strong">Boot camp</div>
+                <div className="date">21.06 - 21.12</div>
                 <div className="education-script">
                   Code States,
                   <br />
@@ -78,7 +79,7 @@ function App() {
               <div className="script-title-txt">ABOUT</div>
             </div>
             <div className="script-txt">
-              <strong>커뮤니케이션 스킬</strong>
+              <strong>커뮤니케이션</strong>
               <br />
               사용자와의 원활한 의사소통을 핵심가치로 삼습니다. 경험을 통해 모든
               사용자에게 편안하고 유쾌한 경험을 제공하는 것에 목표를 두며, 항상
@@ -119,9 +120,9 @@ function App() {
             <div className="empty_space"></div>
             <div className="script-title">
               <div className="script-title-sq"></div>
-              <div className="script-title-txt">Tools</div>
+              <div className="script-title-txt">TOOLS</div>
             </div>
-            <div className="script-txt">
+            <div className="script-txt height-reset">
               <div className="script-title-script text-center mgt-10px ">
                 Empowering Creativity with
               </div>
@@ -137,8 +138,38 @@ function App() {
                   </a>
                 ))}
               </div>
+              <div className="empty_space mgt_top80"></div>
+              <div className="script-title">
+                <div className="script-title-sq"></div>
+                <div className="script-title-txt">PROJECT</div>
+              </div>
+              <div className="script-txt">
+                <strong className="font-size-18px">DONUT</strong>
+                <a
+                  href="https://www.figma.com/file/2wnFKEuS2WJiDvo696Aztw/DONUT?node-id=133%3A121"
+                  target="_/blank"
+                >
+                  <img src={linkedico} className="linked-ico" />
+                </a>
+                <br />
+                Front-end Developer & Designer <br />
+                <div className="date">21.11 - 21.12</div>
+                <div className="left-bolder">
+                <strong className="project-script">
+                  LP 유저들을 위한 커뮤니티로서 LP에 대한 소통을 하고 사진을
+                  공유하고 최신 발매 앨범과 인기 앨범, 최근 거래가 등을 확인할
+                  수 있는 서비스를 제공합니다.
+                </strong>
+                </div>
+                <ul>
+                  <li>소셜 로그인 / 로그인 상태 관리</li>
+                  <li>게시판 페이지 / 게시판 상세 페이지</li>
+                  <li>마이 페이지 / 정보 변경 기능</li>
+                  <li>댓글 기능 구현</li>
+                  <li>Notion</li>
+                </ul>
+              </div>
             </div>
-            <div className="empty_space"></div>
           </div>
         </div>
       </div>
