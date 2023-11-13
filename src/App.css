@@ -210,6 +210,7 @@ left: 0;
   font-size: 30.629px;
   position: absolute;
   left: 15px;
+  display: block;
 }
 
 .script-txt {
@@ -306,6 +307,12 @@ left: 0;
   border-left: 1px solid black;
   padding-left: 15px;
   font-style : italic
+}
+
+.mgt-title {
+  display: block;
+  padding-top: 5px;
+
 }
 
 /* mobile */
@@ -502,7 +509,7 @@ letter-spacing: 0.5px;
   .empty_space {
     height: 30px;
     width: 85vw;
-    margin-top: 60px;
+    margin-top: 100px;
 
   }
 
@@ -541,7 +548,7 @@ letter-spacing: 0.5px;
   }
 
   .mgt_top80 {
-    margin-top: 40px;
+    margin-top: 70px;
     height: 0;
   }
 

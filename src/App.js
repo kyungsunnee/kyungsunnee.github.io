@@ -138,10 +138,11 @@ function App() {
                   </a>
                 ))}
               </div>
+
               <div className="empty_space mgt_top80"></div>
               <div className="script-title">
                 <div className="script-title-sq"></div>
-                <div className="script-title-txt">PROJECT</div>
+                <div className="script-title-txt mgt-title">PROJECT</div>
               </div>
               <div className="script-txt">
                 <strong className="font-size-18px">DONUT</strong>
@@ -155,11 +156,11 @@ function App() {
                 Front-end Developer & Designer <br />
                 <div className="date">21.11 - 21.12</div>
                 <div className="left-bolder">
-                <strong className="project-script">
-                  LP 유저들을 위한 커뮤니티로서 LP에 대한 소통을 하고 사진을
-                  공유하고 최신 발매 앨범과 인기 앨범, 최근 거래가 등을 확인할
-                  수 있는 서비스를 제공합니다.
-                </strong>
+                  <strong className="project-script">
+                    LP 유저들을 위한 커뮤니티로서 LP에 대한 소통을 하고 사진을
+                    공유하고 최신 발매 앨범과 인기 앨범, 최근 거래가 등을 확인할
+                    수 있는 서비스를 제공합니다.
+                  </strong>
                 </div>
                 <ul>
                   <li>소셜 로그인 / 로그인 상태 관리</li>
