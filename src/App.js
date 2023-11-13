@@ -10,9 +10,31 @@ import cssico from "./img/skill/files (1).png";
 import htmlico from "./img/skill/files.png";
 import illustico from "./img/skill/illustrator.png";
 import photoshopico from "./img/skill/photoshop.png";
+import figmaico from "./img/skill/figma (1).png";
+import mostico from "./img/skill/bing.png";
 
 function App() {
-  const icoList = [jsico, htmlico, cssico, reactico, photoshopico, illustico];
+  const icoList = [
+    jsico,
+    htmlico,
+    cssico,
+    reactico,
+    photoshopico,
+    illustico,
+    figmaico,
+    mostico,
+  ];
+
+  const driveList = [
+    "https://drive.google.com/drive/folders/1QWlPgaCqMKGHMnAJACjrE6QgnkXRIlHa?usp=sharing",
+    "https://drive.google.com/drive/folders/1MjXZrN3UtCytbSvNYSVIVukR6P4KunMp?usp=sharing",
+    "https://drive.google.com/drive/folders/1MjXZrN3UtCytbSvNYSVIVukR6P4KunMp?usp=sharing",
+    "",
+    "https://drive.google.com/drive/folders/1ms4pta5De2ItbbVL9j0y2e_8sc9D1aDa?usp=sharing",
+    "https://drive.google.com/drive/folders/1ms4pta5De2ItbbVL9j0y2e_8sc9D1aDa?usp=sharing",
+    "https://drive.google.com/drive/folders/1e3DuSadAaMGKuCF6UgEUX4EYHQLIx2Sk?usp=sharing",
+    "https://drive.google.com/drive/folders/1N47d9IrmgIoVv4MZupPWWjYwS84pj1BX?usp=sharing",
+  ];
 
   return (
     <div className="App">
@@ -104,12 +126,14 @@ function App() {
               </div>
               <div className="skill-area">
                 {icoList.map((icon, index) => (
-                  <img
-                    className="skill-ico"
-                    key={index}
-                    src={icon}
-                    alt={`icon-${index}`}
-                  />
+                  <a href={driveList[index]} target="_/blank">
+                    <img
+                      className="skill-ico"
+                      key={index}
+                      src={icon}
+                      alt={`icon-${index}`}
+                    />
+                  </a>
                 ))}
               </div>
             </div>
