@@ -174,7 +174,7 @@ ul {
 #profile-photo-area {
   position: fixed;
 
-  width: 312px;
+  width: 270px;
   display: flex;
   justify-content: center;
   position: absolute;
@@ -472,6 +472,7 @@ position: static;
   
   #profile-photo-area {
     position: static;
+    width: 320px;
     height: 180px;
     display: flex;
     justify-content: left;
