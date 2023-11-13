@@ -4,7 +4,16 @@ import image from "./img/IMG_9969.jpg";
 import Header from "./Header";
 import profile from "./img/profile.jpeg";
 
+import reactico from "./img/skill/atom.png";
+import jsico from "./img/skill/js.png";
+import cssico from "./img/skill/files (1).png";
+import htmlico from "./img/skill/files.png";
+import illustico from "./img/skill/illustrator.png";
+import photoshopico from "./img/skill/photoshop.png";
+
 function App() {
+  const icoList = [jsico, htmlico, cssico, reactico, photoshopico, illustico];
+
   return (
     <div className="App">
       <div className="main-container">
@@ -83,6 +92,26 @@ function App() {
               긍정적인 커뮤니케이션을 통해 협업의 효율성을 극대화하고자 하는
               목표를 가지고 있습니다. 사용자 경험을 개선은 물론 팀 내 협업을
               강화하여 효율적이고 창의적인 결과물을 만들어내고 싶습니다.
+            </div>
+            <div className="empty_space"></div>
+            <div className="script-title">
+              <div className="script-title-sq"></div>
+              <div className="script-title-txt">Tools</div>
+            </div>
+            <div className="script-txt">
+              <div className="script-title-script text-center mgt-10px ">
+                Empowering Creativity with
+              </div>
+              <div className="skill-area">
+                {icoList.map((icon, index) => (
+                  <img
+                    className="skill-ico"
+                    key={index}
+                    src={icon}
+                    alt={`icon-${index}`}
+                  />
+                ))}
+              </div>
             </div>
             <div className="empty_space"></div>
           </div>

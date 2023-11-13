@@ -202,8 +202,8 @@ left: 0;
 .empty_space {
   height: 30px;
   width: 540px;
-  margin-top: 50px;
-  border-bottom: 0.901px solid #5A778C;
+  margin-top: 100px;
+  border-bottom: 0.901px solid #f2f2f2;
 }
 
 #education {
@@ -235,6 +235,28 @@ left: 0;
 
 .font-size-18px {
   font-size: 18px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.mgt-10px {
+  margin-top: 10px;
+}
+
+.skill-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.skill-ico{
+  width: 45px;
+  margin: 10px;
+  opacity: 0.6;
 }
 
 /* mobile */
@@ -429,8 +451,8 @@ letter-spacing: 0.5px;
   .empty_space {
     height: 30px;
     width: 85vw;
-    margin-top: 50px;
-    border-bottom: 0.901px solid #5A778C;
+    margin-top: 60px;
+
   }
 
   #education {
