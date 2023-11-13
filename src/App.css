@@ -457,7 +457,7 @@ letter-spacing: 0.5px;
 
   #education {
     display: block;
-    padding-top: 1em;
+    padding-top: 0;
     padding-left: 70px;
     margin: 0;
   }
@@ -481,6 +481,12 @@ letter-spacing: 0.5px;
 
   .mobile-hidden {
     display: none;
+  }
+
+  .skill-ico{
+    width: 30px;
+    margin: 10px;
+    opacity: 0.6;
   }
 }
 
