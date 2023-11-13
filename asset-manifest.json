@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e498057.css",
-    "main.js": "/static/js/main.c0772261.js",
+    "main.css": "/static/css/main.166388b4.css",
+    "main.js": "/static/js/main.af5b4693.js",
     "static/js/787.03deeacb.chunk.js": "/static/js/787.03deeacb.chunk.js",
     "static/media/NanumGothic.ttf": "/static/media/NanumGothic.46c03af3832f3527bd51.ttf",
     "static/media/IMG_9969.jpg": "/static/media/IMG_9969.c046095e12289a4bd6b4.jpg",
@@ -12,18 +12,19 @@
     "static/media/arroba.png": "/static/media/arroba.05c52f5020bac5f3dfe4.png",
     "static/media/js.png": "/static/media/js.aa2e5317530cc7559aea.png",
     "static/media/google-drive.png": "/static/media/google-drive.379f5c0d39599a170cae.png",
+    "static/media/figma (1).png": "/static/media/figma (1).215c038b2432cb8b2d4a.png",
     "static/media/Notion_app_logo.png": "/static/media/Notion_app_logo.7aa264a898951e791ee3.png",
     "static/media/files (1).png": "/static/media/files (1).2ad333e61e96360a5b34.png",
     "static/media/photoshop.png": "/static/media/photoshop.d8f7f9e7e941f754e4aa.png",
     "static/media/illustrator.png": "/static/media/illustrator.6ecabe01f0287633fd21.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.9e498057.css.map": "/static/css/main.9e498057.css.map",
-    "main.c0772261.js.map": "/static/js/main.c0772261.js.map",
+    "main.166388b4.css.map": "/static/css/main.166388b4.css.map",
+    "main.af5b4693.js.map": "/static/js/main.af5b4693.js.map",
     "787.03deeacb.chunk.js.map": "/static/js/787.03deeacb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e498057.css",
-    "static/js/main.c0772261.js"
+    "static/css/main.166388b4.css",
+    "static/js/main.af5b4693.js"
   ]
 }
