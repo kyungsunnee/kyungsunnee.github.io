@@ -19,6 +19,7 @@
   font-style: normal;
 }
 
+
 a:visited {
   color: #0b456e;
 }
@@ -110,8 +111,6 @@ a:visited {
 }
 
 .App {
-  height: 1000px;
-  /* background-color: aqua; */
 }
 
 .main-container {
