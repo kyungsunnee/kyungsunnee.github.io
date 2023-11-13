@@ -23,6 +23,16 @@ a:visited {
   color: #0b456e;
 }
 
+* {
+  font-family: 'Nanum Gothic';
+  font-size: 13px;
+}
+
+.strong {
+  font-weight: bold;
+  font-size: 14px;
+}
+
 .Header {
   position: fixed; /* 고정 위치 */
   top: 0; /* 화면 상단에 고정 */
@@ -116,6 +126,7 @@ a:visited {
 .main-left {
   width: 312px;
   /* border: 1px solid black; */
+  height: 100vh;
   margin-right: 56px;
 }
 
@@ -148,8 +159,15 @@ a:visited {
   z-index: 2;
 }
 
+.script {
+  display: block;
+  align-items: center;
+}
+
 .script-title {
-  position: absolute;
+  position: absolute;  
+  display: block;
+  width: 95vw;
 }
 
 .script-title-sq {
@@ -163,23 +181,60 @@ left: 0;
 
 .script-title-txt {
   color: #000;
-
-font-family: 'Judson Bold';
-font-size: 30.629px;
-position: absolute;
-left: 15px;
+  font-family: 'Judson Bold';
+  font-size: 30.629px;
+  position: absolute;
+  left: 15px;
 }
 
 .script-txt {
   display: block;
   white-space:normal;
   width: 540px;
-  clear:both !important;
+  /* clear:both !important; */
   position: relative;
-top: 50px;
-font-family: 'Nanum Gothic';
-line-height: 23px; /* 150% */
-letter-spacing: 0.721px;
+  top: 50px;
+  font-family: 'Nanum Gothic';
+  line-height: 23px; /* 150% */
+  letter-spacing: 0.721px;
+}
+
+.empty_space {
+  height: 30px;
+  width: 540px;
+  margin-top: 50px;
+  border-bottom: 0.901px solid #5A778C;
+}
+
+#education {
+  display: block;
+  padding-top: 130px;
+  width: 90%;
+  justify-content: center;
+  margin: auto;
+}
+
+.education-title {
+  width: 270px;
+  margin-top: 20px;
+  margin-left: auto;
+}
+
+.education-date {
+  width: 270px;
+  color: #6C6C6C;
+  margin-top: 5px;
+  margin-left: auto;
+}
+
+.education-script {
+  width: 270px;
+  margin-top: 15px;
+  margin-left: auto;
+}
+
+.font-size-18px {
+  font-size: 18px;
 }
 
 /* mobile */
@@ -341,15 +396,22 @@ letter-spacing: 0.721px;
     display: grid;
   }
 
+  .script {
+    width: 85vw;
+    margin: auto;
+    margin-top: 0;
+  }
+
   .script-title {
-    width: 90vw;
+    width: 85vw;
     margin: auto;
   }
 
   .script-txt {
+    margin:auto;
     display: block;
     white-space:normal;
-    width: 90vw;
+    width: 85vw;
     clear:both !important;
     position: relative;
   top: 50px;
@@ -363,6 +425,40 @@ letter-spacing: 0.5px;
   }
   .script-title-txt {
     font-size: 22px;
+  }
+  .empty_space {
+    height: 30px;
+    width: 85vw;
+    margin-top: 50px;
+    border-bottom: 0.901px solid #5A778C;
+  }
+
+  #education {
+    display: block;
+    padding-top: 1em;
+    padding-left: 70px;
+    margin: 0;
+  }
+
+  .education-title {
+    font-size: 11px;
+    margin-top: 10px;
+  }
+  
+  .education-date {
+    font-size: 11px;
+    color: #6C6C6C;
+    margin-top: 3px;
+  }
+  
+  .education-script {
+    font-size: 11px;
+    margin-top: 7px;
+    text-align: 1px;
+  }
+
+  .mobile-hidden {
+    display: none;
   }
 }
 
