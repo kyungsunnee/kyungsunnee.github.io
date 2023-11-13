@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4826cfdb.css",
-    "main.js": "/static/js/main.7e23300f.js",
+    "main.css": "/static/css/main.bffa85c7.css",
+    "main.js": "/static/js/main.820d9824.js",
     "static/js/787.03deeacb.chunk.js": "/static/js/787.03deeacb.chunk.js",
     "static/media/NanumGothic.ttf": "/static/media/NanumGothic.46c03af3832f3527bd51.ttf",
     "static/media/IMG_9969.jpg": "/static/media/IMG_9969.c046095e12289a4bd6b4.jpg",
@@ -10,14 +10,15 @@
     "static/media/Judson-Bold.ttf": "/static/media/Judson-Bold.198c83cab5578364aa6b.ttf",
     "static/media/arroba.png": "/static/media/arroba.05c52f5020bac5f3dfe4.png",
     "static/media/google-drive.png": "/static/media/google-drive.379f5c0d39599a170cae.png",
+    "static/media/Notion_app_logo.png": "/static/media/Notion_app_logo.7aa264a898951e791ee3.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.4826cfdb.css.map": "/static/css/main.4826cfdb.css.map",
-    "main.7e23300f.js.map": "/static/js/main.7e23300f.js.map",
+    "main.bffa85c7.css.map": "/static/css/main.bffa85c7.css.map",
+    "main.820d9824.js.map": "/static/js/main.820d9824.js.map",
     "787.03deeacb.chunk.js.map": "/static/js/787.03deeacb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4826cfdb.css",
-    "static/js/main.7e23300f.js"
+    "static/css/main.bffa85c7.css",
+    "static/js/main.820d9824.js"
   ]
 }
