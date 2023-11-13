@@ -315,6 +315,10 @@ left: 0;
 
 }
 
+.mobile-veiw {
+  display: none;
+}
+
 /* mobile */
 
 @media (max-width: 280px) {
@@ -562,6 +566,10 @@ letter-spacing: 0.5px;
     color: black;
     font-size: 13px;
     margin-top: 20px;
+  }
+
+  .mobile-veiw{
+    display: inline;
   }
   
 }
