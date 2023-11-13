@@ -5,16 +5,23 @@ import mail from "./img/arroba.png";
 import git from "./img/github.png";
 import drive from "./img/google-drive.png";
 import notion from "./img/Notion_app_logo.png";
+// import { scrollToTopFunc } from "./App"; // scrollToTop 함수 import
 
 function Header() {
   const name = "Park Kyungsun";
   const job = "Product Designer";
 
+  function nameClick() {
+    // scrollToTopFunc();
+  }
+
   return (
     <div className="Header">
       <div className="Header_content">
         <div id="header-left">
-          <div id="name">{name}</div>
+          <div id="name" onClick={nameClick()}>
+            {name}
+          </div>
           <div id="job">{job}</div>
         </div>
         <div id="header-right">

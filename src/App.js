@@ -130,6 +130,7 @@ function App() {
               <div className="script-title-sq"></div>
               <div className="script-title-txt">TOOLS</div>
             </div>
+
             <div className="script-txt height-reset">
               <div className="script-title-script text-center mgt-10px ">
                 Empowering Creativity with
@@ -146,6 +147,7 @@ function App() {
                   </a>
                 ))}
               </div>
+              <div id="drive-notice">* 아이콘 클릭 시 Google drive로 이동</div>
 
               <div className="empty_space mgt_top80"></div>
               <div className="script-title">
