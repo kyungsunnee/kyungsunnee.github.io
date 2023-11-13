@@ -281,7 +281,7 @@ left: 0;
 .skill-ico{
   width: 45px;
   margin: 10px;
-  opacity: 0.8;
+  opacity: 0.85;
 }
 
 .mgt_top80 {
@@ -320,13 +320,23 @@ left: 0;
 }
 
 #goal-script {
-  color: #8a8a8a;
-  font-size: 14px;
+  color: #5D7383;
+  font-size: 13.5px;
+  font-style: italic;
 }
 
-#leftquotes-ico {
-  width: 30px;
+.keyword-ico {
+  display: none;
+  height: 13px;
   margin-right: 0.5em;
+}
+
+.keyword-title {
+  display: inline-block;
+  /* border-left: 4px solid rgb(231, 231, 231); */
+  font-size: 15px;
+  margin-bottom: 5px;
+  color:#2d2d2d
 }
 
 #drive-notice {
@@ -336,6 +346,11 @@ left: 0;
   width: 100%;
   text-align: center;
 }
+
+.color-gray {
+  color:#6C6C6C
+}
+
 /* mobile */
 
 @media (max-width: 280px) {
@@ -588,6 +603,14 @@ letter-spacing: 0.5px;
 
   .mobile-veiw{
     display: inline;
+  }
+
+  #goal-script {
+    font-size: 13px;
+  }
+
+  .keyword-title {
+    font-size: 13.5px;
   }
   
 }
