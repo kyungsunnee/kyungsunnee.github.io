@@ -111,6 +111,7 @@ a:visited {
 }
 
 .App {
+  width: 100vw;
 }
 
 .main-container {
