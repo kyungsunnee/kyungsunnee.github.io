@@ -142,7 +142,7 @@ ul {
 
 .App {
   width: 100vw;
-  height: 1600px;
+  height: 2600px;
   white-space: nowrap;
   margin-bottom: 40px;
 }
@@ -165,7 +165,7 @@ ul {
 
 .main-right {
   width: 540px;
-  height: 3200px;
+  height: 2900px;
   /* border: 1px solid black; */
 }
 
@@ -378,6 +378,7 @@ left: 0;
 }
 
 /* mobile */
+
 
 @media (max-width: 280px) {
   .App {
@@ -645,6 +646,8 @@ letter-spacing: 0.5px;
   .keyword-title {
     font-size: 13.5px;
   }
+
+
   
 }
 

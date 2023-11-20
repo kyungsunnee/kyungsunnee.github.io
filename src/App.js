@@ -335,7 +335,8 @@ function App() {
               <div className="script-txt mgt-40px">
                 <strong className="font-size-18px">홈페이지 운영</strong>
                 <br />
-                Front-end Developer & Designer <br />
+                Front-end Developer
+                <br />
                 <div className="date">23.11</div>
                 <div className="left-bolder">
                   <strong className="project-script">
