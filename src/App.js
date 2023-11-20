@@ -51,28 +51,28 @@ function App() {
             <div id="profile-txt">
               <div id="education">
                 <div className="strong mobile-hidden font-size-18px">
-                  ✏️ Education
+                  ✎ Education
                 </div>
                 <div className="education-title strong">
-                  <span className="mobile-veiw pencil">✏️ </span>
+                  <span className="mobile-veiw pencil">✎ </span>
                   Communivity College
                 </div>
-                <div className="date">09.03 - 15.02</div>
+                <div className="date">Graduated, 09.03 - 12.02</div>
                 <div className="education-script">
                   명지전문대,
                   <br />
                   산업 정보 디자인학과
                 </div>
                 <div className="education-title strong">
-                  <span className="mobile-veiw pencil">✏️ </span>Boot camp
+                  <span className="mobile-veiw pencil">✎ </span>Boot camp
                 </div>
-                <div className="date">21.06 - 21.12</div>
+                <div className="date">Completed, the 31th</div>
                 <div className="education-script">
                   Code States,
                   <br />
                   Advanced Software Engineering
                   <br />
-                  Immersive Program, 31th
+                  Immersive Program
                 </div>
               </div>
             </div>
@@ -162,18 +162,72 @@ function App() {
               </div>
               <div id="drive-notice">* 아이콘 클릭 시 Google drive로 이동</div>
 
-              <div className="empty_space mgt_top80"></div>
+              <div className="empty_space mgt-80px"></div>
               <div className="script-title">
                 <div className="script-title-sq"></div>
                 <div className="script-title-txt mgt-title">PROJECT</div>
               </div>
+              {/* project1 */}
               <div className="script-txt">
+                <strong className="font-size-18px">Meet in the middle</strong>
+                <a
+                  href="https://www.figma.com/file/2wnFKEuS2WJiDvo696Aztw/DONUT?node-id=133%3A121"
+                  target="_/blank"
+                >
+                  {/* <img src={linkedico} className="linked-ico" /> */}
+                </a>
+                <br />
+                Front-end Developer & Designer <br />
+                <div className="date">21.10 - 21.11</div>
+                <div className="left-bolder">
+                  <strong className="project-script">
+                    약속 참가자들이 모두 납득 가능한 합리적인 약속 장소를
+                    제안하는 서비스로 ‘어디서’, ‘뭐먹지’ 두 개의 고민을 해결할
+                    수 있도록 약속 지역과 특정 장소의 정보를 제공합니다.
+                  </strong>
+                </div>
+                <ul>
+                  <li>서비스 기획 / 화면 설계</li>
+                  <li>로고 및 이미지 제작</li>
+                  <li>메인 페이지 / 로그인 페이지</li>
+                  <li>로그인 기능</li>
+                  <li>카카오 지도 API 연동</li>
+                  <li>
+                    <a
+                      href="https://www.notion.so/First-Project-850ddd3bd9f543cda2b3c186fc24481a?pvs=4"
+                      target="_/blank"
+                    >
+                      Notion
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/kyungsunnee/meet-in-the-middle"
+                      target="_/blank"
+                    >
+                      Github
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.figma.com/file/JYahEPkhnzbKoa15GlPLVf/meet-in-the-middle?type=design&node-id=0%3A1&mode=design&t=8SDndroUN2WrJYlK-1"
+                      target="_/blank"
+                    >
+                      Figma
+                      {/* <img src={linkedico} className="linked-ico" /> */}
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              {/* project2 */}
+              <div className="script-txt mgt-40px">
                 <strong className="font-size-18px">DONUT</strong>
                 <a
                   href="https://www.figma.com/file/2wnFKEuS2WJiDvo696Aztw/DONUT?node-id=133%3A121"
                   target="_/blank"
                 >
-                  <img src={linkedico} className="linked-ico" />
+                  {/* <img src={linkedico} className="linked-ico" /> */}
                 </a>
                 <br />
                 Front-end Developer & Designer <br />
@@ -186,11 +240,153 @@ function App() {
                   </strong>
                 </div>
                 <ul>
+                  <li>서비스 기획 / 화면 설계</li>
+                  <li>로고 및 이미지 제작</li>
                   <li>소셜 로그인 / 로그인 상태 관리</li>
                   <li>게시판 페이지 / 게시판 상세 페이지</li>
                   <li>마이 페이지 / 정보 변경 기능</li>
                   <li>댓글 기능 구현</li>
-                  <li>Notion</li>
+                  <li>
+                    <a
+                      href="https://www.notion.so/bbd0cdaf83234f81b1283f99dedc28e0?v=7267c836e0a84688ac48f001394d02f2&pvs=4"
+                      target="_/blank"
+                    >
+                      Notion
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/kyungsunnee/DONUT-1"
+                      target="_/blank"
+                    >
+                      Github
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.figma.com/file/2wnFKEuS2WJiDvo696Aztw/DONUT?node-id=133%3A121"
+                      target="_/blank"
+                    >
+                      Figma
+                      {/* <img src={linkedico} className="linked-ico" /> */}
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              {/* project3 */}
+              <div className="script-txt mgt-40px">
+                <strong className="font-size-18px">은행 전자서명</strong>
+                <a
+                  href="https://www.figma.com/file/2wnFKEuS2WJiDvo696Aztw/DONUT?node-id=133%3A121"
+                  target="_/blank"
+                ></a>
+                <br />
+                Front-end Developer & Designer <br />
+                <div className="date">23.10</div>
+                <div className="left-bolder">
+                  <strong className="project-script">
+                    은행에 제공하는 PC 전자서명 시스템
+                  </strong>
+                </div>
+                <ul>
+                  <li>화면 기획 기반 화면 설계 및 디자인 작업</li>
+                  <li>로그인 페이지, 메인 페이지, 모달 창</li>
+                  <li>메인 페이지 / 로그인 페이지</li>
+                  <li>
+                    <a
+                      href="https://www.figma.com/file/MWiISISP0IshKVOO0aWovC/%E1%84%8B%E1%85%B3%E1%86%AB%E1%84%92%E1%85%A2%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%8C%E1%85%A1%E1%84%89%E1%85%A5%E1%84%86%E1%85%A7%E1%86%BC(bankSign)?type=design&node-id=1%3A2&mode=design&t=T9vFfIqQgzzYQDEi-1"
+                      target="_/blank"
+                    >
+                      Figma
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              {/* project4 */}
+              <div className="script-txt mgt-40px">
+                <strong className="font-size-18px">통합 모바일 전자서명</strong>
+                <a
+                  href="https://www.figma.com/file/2wnFKEuS2WJiDvo696Aztw/DONUT?node-id=133%3A121"
+                  target="_/blank"
+                ></a>
+                <br />
+                Designer <br />
+                <div className="date">23.10</div>
+                <div className="left-bolder">
+                  <strong className="project-script">
+                    모바일 어플을 통해 개인이 전자서명을 진행하는 서비스
+                  </strong>
+                </div>
+                <ul>
+                  <li>화면 기획 / 설계 및 디자인 작업</li>
+                  <li>메인페이지, 전자서명 페이지, FAQ 페이지</li>
+                  <li>
+                    <a
+                      href="https://www.figma.com/file/u9J8pPRYqj5X9rsEJBt5eh/%E1%84%90%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%86%B8%E1%84%86%E1%85%A9%E1%84%87%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%8C%E1%85%A1%E1%84%89%E1%85%A5%E1%84%86%E1%85%A7%E1%86%BC?type=design&node-id=1%3A5&mode=design&t=4S9PSVvLie1gcaDD-1"
+                      target="_/blank"
+                    >
+                      Figma
+                      {/* <img src={linkedico} className="linked-ico" /> */}
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              {/* project5 */}
+              <div className="script-txt mgt-40px">
+                <strong className="font-size-18px">홈페이지 운영</strong>
+                <br />
+                Front-end Developer & Designer <br />
+                <div className="date">23.11</div>
+                <div className="left-bolder">
+                  <strong className="project-script">
+                    홈페이지 섹션 수정 및 맵 보완
+                  </strong>
+                </div>
+                <ul>
+                  <li>header 네비게이터 수정 </li>
+                  <li>메인 페이지 섹션 수정 </li>
+                  <li>
+                    ‘오시는 길’ 섹션 주차 관련 내용 보완 및 이미지 제작
+                    <a
+                      href="https://www.finotek.co.kr/resources/image/parking.jpg"
+                      target="_/blank"
+                    >
+                      <img className="linked-ico" src={linkedico} />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://finotek.co.kr/" target="_/blank">
+                      HOME
+                    </a>
+                  </li>
+                </ul>
+                <div className="left-bolder">
+                  <strong className="project-script">
+                    홈페이지 메인컬러 변경 및 섹션 수정
+                  </strong>
+                </div>
+                <ul>
+                  <li>로고 이미지 변경 및 홈페이지 메인 컬러 변경 </li>
+                  <li>
+                    메인 페이지 섹션 수정 및 추가
+                    <ul className="second-ul">
+                      <li className="second-li">
+                        - NTH Platform Architecture 이미지 제작
+                      </li>
+                      <li className="second-li">
+                        - Data Platform : NTH Mobile Application 이미지 제작
+                      </li>
+                      <li className="second-li">
+                        - Data Platform : ECO System 이미지 제작
+                      </li>
+                      <li>
+                        {" "}
+                        <a href="https://nthchaincambodia.io/" target="_/blank">
+                          HOME
+                        </a>{" "}
+                      </li>
+                    </ul>
+                  </li>
                 </ul>
               </div>
             </div>
