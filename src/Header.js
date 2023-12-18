@@ -26,10 +26,10 @@ function Header() {
         </div>
         <div id="header-right">
           <div className="info-div">
-            <a href="tel:01049631210">
+            <a href="tel:05064631210">
               <img alt="phone icon" src={phone} className="info-icon" />
             </a>
-            <span className="info-txt">01049631210</span>
+            <span className="info-txt">050-6463-1210</span>
           </div>
           <div className="info-div info-mg">
             <a href="mailto:kyungsunnee@naver.com">
